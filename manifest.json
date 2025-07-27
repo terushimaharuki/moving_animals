@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "泳ぐクジラさん",
+  "name": "動く動物達",
   "version": "1.0",
-  "description": "画面上をかわいいクジラが泳ぐChrome拡張機能です。",
+  "description": "画面上をかわいい動物達が動くChrome拡張機能です。",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
@@ -12,11 +12,11 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "images/wheel_1.png",
-        "images/wheel_2.png",
-        "images/wheel_3.png",
-        "images/wheel_4.png",
-        "images/wheel_5.png"
+        "images/whale_1.png",
+        "images/whale_2.png",
+        "images/whale_3.png",
+        "images/whale_4.png",
+        "images/whale_5.png"
       ],
       "matches": ["<all_urls>"]
     }
