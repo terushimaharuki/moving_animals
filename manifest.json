@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "泳ぐクジラさん",
+  "version": "1.0",
+  "description": "画面上をかわいいクジラが泳ぐChrome拡張機能です。",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/wheel_1.png",
+        "images/wheel_2.png",
+        "images/wheel_3.png",
+        "images/wheel_4.png",
+        "images/wheel_5.png"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
