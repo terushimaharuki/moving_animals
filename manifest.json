@@ -6,22 +6,14 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content_whale.js", "content_girl.js"]
+      "js": ["content.js"]
     }
   ],
   "web_accessible_resources": [
     {
       "resources": [
-        "images/whale/whale_1.png",
-        "images/whale/whale_2.png",
-        "images/whale/whale_3.png",
-        "images/whale/whale_4.png",
-        "images/whale/whale_5.png",
-        "images/girl/girl_1.png",
-        "images/girl/girl_2.png",
-        "images/girl/girl_3.png",
-        "images/girl/girl_4.png",
-        "images/girl/girl_5.png"
+        "images/whale/*",
+        "images/girl/*"
       ],
       "matches": ["<all_urls>"]
     }
