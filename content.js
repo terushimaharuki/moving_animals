@@ -9,14 +9,14 @@ window.onload = () => {
 
   // クジラのアニメーションフレームの順番を指定
   const imageSequence = [
-    'images/wheel_1.png',
-    'images/wheel_2.png',
-    'images/wheel_3.png',
-    'images/wheel_4.png',
-    'images/wheel_5.png',
-    'images/wheel_4.png',
-    'images/wheel_3.png',
-    'images/wheel_2.png'
+    'images/whale_1.png',
+    'images/whale_2.png',
+    'images/whale_3.png',
+    'images/whale_4.png',
+    'images/whale_5.png',
+    'images/whale_4.png',
+    'images/whale_3.png',
+    'images/whale_2.png'
   ];
   let frameIndex = 0;
 
