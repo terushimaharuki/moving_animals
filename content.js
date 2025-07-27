@@ -25,7 +25,10 @@ window.onload = () => {
 
   // クジラのスタイルを設定
   whale.style.position = 'fixed';
-  whale.style.top = '5%'; // 画面の上から15%の位置
+  
+  const topPos = Math.random() * 50 //自動で位置を調整（画面の上半分のみに出力されるよう調整）
+  whale.style.top = topPos + '%'; 
+
   whale.style.right = '-200px'; // 最初は画面の外（右側）に配置
   whale.style.zIndex = '9999'; // 他の要素より手前に表示
   whale.style.pointerEvents = 'none'; // クジラがクリックの邪魔をしないようにする
